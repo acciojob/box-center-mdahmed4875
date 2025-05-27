@@ -1,14 +1,21 @@
 /*  your css code here. If applicable */
-div{
+body,html{
+	height:100%;
+	margin:0;
+}
+#box{
 	width:200px;
 	height:200px;
-	position:absolute;
-	left:50%;
-	top:50%;
 	background-color:lightblue;
 	border:2px solid black;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	color:purple;
+}
+#container{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
